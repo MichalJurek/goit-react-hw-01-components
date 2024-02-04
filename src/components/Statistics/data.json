@@ -1,0 +1,6 @@
+[
+  { "id": "cell-1", "label": "docx", "stats": 4 },
+  { "id": "cell-2", "label": "pdf", "stats": 14 },
+  { "id": "cell-3", "label": "mp3", "stats": 41 },
+  { "id": "cell-4", "label": "psd", "stats": 12 }
+]
