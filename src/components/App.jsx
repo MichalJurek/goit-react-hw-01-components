@@ -2,7 +2,7 @@
 import user from './Profile/user.json';
 import data from './Statistics/data.json';
 import friends from './FriendList/friends.json';
-import transations from './TransactionHistory/transactions.json';
+import transactions from './TransactionHistory/transactions.json';
 //JSX
 import Profile from './Profile/profile.jsx';
 import Statistics from './Statistics/statistics.jsx';
@@ -21,7 +21,7 @@ export default function App() {
       />
       <Statistics label="UPLOAD STATS" stats={data} />
       <FriendsList friends={friends} />
-      <TransactionHistory items={transations} />
+      <TransactionHistory items={transactions} />
     </div>
   );
 }
