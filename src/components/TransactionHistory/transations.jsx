@@ -1,11 +1,15 @@
 import PropTypes from 'prop-types';
 import css from './transations.module.css';
+import { getRandomDarkHexColor } from 'components/Statistics/getRandomDarkHexColor';
 
 const TransactionHistory = ({ items }) => {
   return (
     <table className={css.transaction_history}>
       <thead>
-        <tr className={css.firstRow}>
+        <tr
+          className={css.firstRow}
+          style={{ backgroundColor: getRandomDarkHexColor() }}
+        >
           <th>Type</th>
           <th>Amount</th>
           <th>Currency</th>

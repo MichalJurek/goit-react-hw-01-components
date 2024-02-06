@@ -4,8 +4,7 @@
   margin-bottom: 5%;
   width: 50%;
   border-collapse: collapse;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .transaction_history th,
@@ -16,7 +15,7 @@
 }
 
 .firstRow {
-  background-color: #1e90ff;
+  box-shadow: rgba(0, 0.24, 0.24, 0) 0px 3px 8px;
   color: #fff;
 }
 
