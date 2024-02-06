@@ -2,12 +2,12 @@
 import user from './Profile/user.json';
 import data from './Statistics/data.json';
 import friends from './FriendList/friends.json';
-import transations from './TransactionHistory/transations.json'
+import transations from './TransactionHistory/transactions.json';
 //JSX
 import Profile from './Profile/profile.jsx';
 import Statistics from './Statistics/statistics.jsx';
 import FriendsList from './FriendList/friends.jsx';
-import TransactionHistory from './TransactionHistory/transations.jsx'; 
+import TransactionHistory from './TransactionHistory/transactions.jsx';
 
 export default function App() {
   return (

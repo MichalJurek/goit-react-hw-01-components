@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import css from './transations.module.css';
+import css from './transactions.module.css';
 import { getRandomDarkHexColor } from 'components/Statistics/getRandomDarkHexColor';
 
 const TransactionHistory = ({ items }) => {
