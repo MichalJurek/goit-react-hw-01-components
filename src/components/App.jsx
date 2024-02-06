@@ -2,10 +2,12 @@
 import user from './Profile/user.json';
 import data from './Statistics/data.json';
 import friends from './FriendList/friends.json';
+import transations from './TransactionHistory/transations.json'
 //JSX
 import Profile from './Profile/profile.jsx';
 import Statistics from './Statistics/statistics.jsx';
-import FriendsList from './FriendList/friends.jsx'; 
+import FriendsList from './FriendList/friends.jsx';
+import TransactionHistory from './TransactionHistory/transations.jsx'; 
 
 export default function App() {
   return (
@@ -19,6 +21,7 @@ export default function App() {
       />
       <Statistics label="UPLOAD STATS" stats={data} />
       <FriendsList friends={friends} />
+      <TransactionHistory items={transations} />
     </div>
   );
 }

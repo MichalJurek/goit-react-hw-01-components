@@ -6,7 +6,7 @@
 }
 
 .statistics h2 {
-  color: rgb(60, 60, 60)
+  color: rgb(60, 60, 60);
 }
 
 .title {
@@ -31,8 +31,8 @@
   gap: 2px;
   width: 70px;
   height: 70px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-
 
 .label {
   font-size: 22px;
