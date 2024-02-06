@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Mango",
+    "avatar": "https://cdn.icon-icons.com/icons2/582/PNG/512/woen-2_icon-icons.com_55032.png",
+    "status": {
+      "online": true,
+      "offline": false
+    }
+  },
+  {
+    "name": "Bruce",
+    "avatar": "https://cdn.icon-icons.com/icons2/1371/PNG/512/batman_90804.png",
+    "status": {
+      "online": true,
+      "offline": false
+    }
+  },
+  {
+    "name": "Ajax",
+    "avatar": "https://cdn.icon-icons.com/icons2/35/PNG/512/police_avatar_person_2845.png",
+    "status": {
+      "online": false,
+      "offline": true
+    }
+  },
+  {
+    "name": "Jay",
+    "avatar": "https://cdn.icon-icons.com/icons2/3768/PNG/512/girl_avatar_woman_icon_231579.png",
+    "status": {
+      "online": true,
+      "offline": false
+    }
+  },
+  {
+    "name": "Poly",
+    "avatar": "https://cdn.icon-icons.com/icons2/582/PNG/512/wonder-women_icon-icons.com_55030.png",
+    "status": {
+      "online": false,
+      "offline": true
+    }
+  }
+]

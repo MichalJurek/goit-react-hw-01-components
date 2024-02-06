@@ -1,7 +1,11 @@
+// JSON
 import user from './Profile/user.json';
-import Profile from './Profile/profile';
 import data from './Statistics/data.json';
-import Statistics from './Statistics/statistics';
+import friends from './FriendList/friends.json';
+//JSX
+import Profile from './Profile/profile.jsx';
+import Statistics from './Statistics/statistics.jsx';
+import FriendsList from './FriendList/friends.jsx'; 
 
 export default function App() {
   return (
@@ -14,6 +18,7 @@ export default function App() {
         stats={user.stats}
       />
       <Statistics label="UPLOAD STATS" stats={data} />
+      <FriendsList friends={friends} />
     </div>
   );
 }
